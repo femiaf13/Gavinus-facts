@@ -7,7 +7,8 @@ fact_list = [
     "Gavinus' glaive is called Honor's Reach",
     "Gavinus' prosthetic limbs are adamantine to represent 'that which doesn't kill you, only makes you stronger'",
     "Every day we celebrate Gavinus' birthday, for everyday he rises like the Phoenix to lead Aspen-Shea to prosperity",
-    'Gavinus has slain a Greater Basiisk by himself',
+    'Gavinus has slain a Greater Basilisk by himself',
     'Gavinus is a man of the people. They love him, and he loves them back',
-    "Ain't no wizards out there that can take Gavinus in a fair fight"
+    "Ain't no wizards out there that can take Gavinus in a fair fight",
+    "Gavinus once saved Tiberius Sighurd's life"
 ]
