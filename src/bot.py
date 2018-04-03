@@ -6,6 +6,7 @@ from discord.ext import commands
 from facts import fact_list
 
 TOKEN = 'your_token_here'
+NICKNAME = 'Aspen-Shea Facts'
 
 description = '''Devout follower of Gavinus'''
 bot = commands.Bot(command_prefix='!', description=description)
@@ -13,10 +14,11 @@ bot = commands.Bot(command_prefix='!', description=description)
 
 @bot.event
 async def on_ready():
-    print('Logged in as')
-    print(bot.user.name)
-    print(bot.user.id)
-    print('------')
+    # Due to a screwup when I made this bot, must change nickname during runtime
+    for server in bot.servers:
+        if server.me.nick != NICKNAME:
+            me = server.me
+            await bot.change_nickname(me, NICKNAME)
 
 @bot.command()
 async def fact():
