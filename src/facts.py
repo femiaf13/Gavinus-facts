@@ -1,4 +1,5 @@
-
+# Store this all in memory because I host the bost on a Raspberry Pi
+# and I don't want to constantly read off an SD card
 fact_list = [
     "Gavinus' birthday is the 12th of Greenbud",
     'Gavinus currently has no heir to the empire',
@@ -10,5 +11,21 @@ fact_list = [
     'Gavinus has slain a Greater Basilisk by himself',
     'Gavinus is a man of the people. They love him, and he loves them back',
     "Ain't no wizards out there that can take Gavinus in a fair fight",
-    "Gavinus once saved Tiberius Sighurd's life"
+    "Gavinus once saved Tiberius Sighurd's life",
+    "Gavinus is the 10th member of the Adamantine Guard",
+    "Da'vak is THE greataxe-wielding Warforged and member of the Adamantine Guard",
+    'Ellak "The Meteor" is THE warhammer-wielding Aarakocra and member of the Adamantine Guard',
+    "Theren Firahel is THE High Elf specializing in trident+net combat, and a member of the Adamantine Guard",
+    "Gurdis Hammerstone is THE Mountain Dwarf with a maul, and a member of the Adamantine Guard",
+    'Gaius "The Green Reaper" Lothar is THE scythe-wielding Human, and a member of the Adamantine Guard',
+    "Kassius Prodotikos is THE dual-wielding Human, and a member of the Adamantine Guard",
+    "Rangrim Ruby-Eye is THE flail-wielding Hill Dwarf, and a member of the Adamantine Guard",
+    "Marcella Venator is THE Greatsword-wielding badass bitch, errrr Human, and a member of the Adamantine Guard",
+    "Dara Yaeldrin is THE longbow-wielding Wood Elf, and a member of the Adamantine Guard",
+    "The legions of Aspen-Shea have a special corps of Wyvern riders",
+    "There are 10 members of the Adamantine Guard, the personal bodyguards of Emperor Gavinus",
+    "Monstrous races such as Goblins, Orcs, and Yuan-Ti are exterminated with extreme prejudice",
+    "Half-breeds like Half-Orcs or Hobgoblins are treated with some prejudice but are treated normally otherwise",
+    "The Capital of Aspen-Shea is the grand port-city of Phoenixwatch",
+    "The 4th Aspen-Shean Civil War ended on the 3rd of Snowmelt, 1756 AF"
 ]
